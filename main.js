@@ -115,16 +115,16 @@ function Next(){
   id.style.visibility="hidden";
   id=document.getElementById("Next");
   id.style.visibility="hidden";
+  profiles.splice(n,1)
   SetupProfile()
 }
 function LoadData(){
   ajaxGetRequest('/data',Loaded)
 }
 function SetupProfile(){
-  if (n > -1) { 
-    profiles.splice(n, 1); 
-  }
-  num=Math.floor(Math.random() * profiles.length);
+  console.log(profiles)
+  if(cycles<5){
+    num=Math.floor(Math.random() * profiles.length);
   n=num
   console.log(n)
   id=document.getElementById("pfp");
@@ -154,6 +154,17 @@ function SetupProfile(){
   id=document.getElementById("Profile_Followers_Count").innerHTML=profiles[num][5]
   id=document.getElementById("Profile_Following_count").innerHTML=profiles[num][6]
   return
+  }
+  else{
+    let id=document.getElementById("Leaderboards");
+    id.style.visibility="visible"
+      id=document.getElementById("Exp");
+      id.style.visibility="visible"
+  }
+  if (n > -1) { 
+    profiles.splice(n, 1); 
+  }
+  
   
 
 }

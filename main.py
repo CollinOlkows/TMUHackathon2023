@@ -59,51 +59,48 @@ def Cdata():
 # not 1
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 1/pfp.jpg')
 def pfp1():
-  return bottle.static_file("Questions/Type 1 - Bot or Not/not - 1/pfp.jpg",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 1/pfp.jpg",root='.')
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 1/post1.png')
 def post11():
-  return bottle.static_file("Questions/Type 1 - Bot or Not/not - 1/post1.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 1/post1.png",root='.')
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 1/post2.png')
 def post12():
-  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 1/post2.png",root='.')
+  return bottle.static_file("Questions/Type 1 - Bot or Not/not - 1/post2.png",root='.')
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 1/post3.png')
 def post13():
-  return bottle.static_file("Questions/Type 1 - Bot or Not/not - 1/post3.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 1/post3.png",root='.')
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 1/post4.png')
 def post14():
-  return bottle.static_file("Questions/Type 1 - Bot or Not/not - 1/post4.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 1/post4.png",root='.')
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 1/post5.png')
 def post15():
-  return bottle.static_file("Questions/Type 1 - Bot or Not/not - 1/post5.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 1/post5.png",root='.')
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 1/post6.png')
 def post16():
-  return bottle.static_file("Questions/Type 1 - Bot or Not/not - 1/post6.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 1/post6.png",root='.')
 
 # not 2
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 2/post1.png')
 def post17():
-  return bottle.static_file("Questions/Type 1 - Bot or Not/not - 2/post1.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 2/post1.png",root='.')
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 2/post2.png')
 def post18():
   return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 2/post2.png",root='.')
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 2/post3.png')
 def post19():
   return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 2/post3.png",root='.')
-@bottle.route('/Questions/Type 1 - Bot or Not/not - 2/post3.png')
+@bottle.route('/Questions/Type 1 - Bot or Not/not - 2/post4.png')
 def post20():
   return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 2/post4.png",root='.')
-@bottle.route('/Questions/Type 1 - Bot or Not/not - 2/post1.png')
-def post21():
-  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 2/post4.png",root='.')
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 2/post5.png')
-def post22():
+def post21():
   return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 2/post5.png",root='.')
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 2/post6.png')
-def post23():
+def post22():
   return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 2/post6.png",root='.')
-@bottle.route('/Questions/Type 1 - Bot or Not/not - 2/pfp.png')
+@bottle.route('/Questions/Type 1 - Bot or Not/not - 2/pfp.jpg')
 def post24():
-  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 2/pfp.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 2/pfp.jpg",root='.')
 
 # not 3
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 3/post1.png')
@@ -130,9 +127,9 @@ def post29():
 def post30():
   return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 3/post6.png",root='.')
 
-@bottle.route('/Questions/Type 1 - Bot or Not/not - 3/pfp.png')
+@bottle.route('/Questions/Type 1 - Bot or Not/not - 3/pfp.jpg')
 def post31():
-  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 3/pfp.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 3/pfp.jpg",root='.')
 
 # not 4
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 4/post1.png')
@@ -159,9 +156,9 @@ def post36():
 def post37():
   return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 4/post6.png",root='.')
 
-@bottle.route('/Questions/Type 1 - Bot or Not/not - 4/pfp.png')
+@bottle.route('/Questions/Type 1 - Bot or Not/not - 4/pfp.jpg')
 def post38():
-  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 4/pfp.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 4/pfp.jpg",root='.')
 
 # not 5
 @bottle.route('/Questions/Type 1 - Bot or Not/not - 5/post1.png')
@@ -188,9 +185,9 @@ def post43():
 def post44():
   return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 5/post6.png",root='.')
 
-@bottle.route('/Questions/Type 1 - Bot or Not/not - 5/pfp.png')
+@bottle.route('/Questions/Type 1 - Bot or Not/not - 5/pfp.jpg')
 def post45():
-  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 5/pfp.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/not - 5/pfp.jpg",root='.')
 
 # bot 1
 @bottle.route('/Questions/Type 1 - Bot or Not/bot - 1/post1.png')
@@ -217,9 +214,9 @@ def post50():
 def post51():
   return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 1/post6.png",root='.')
 
-@bottle.route('/Questions/Type 1 - Bot or Not/bot - 1/pfp.png')
+@bottle.route('/Questions/Type 1 - Bot or Not/bot - 1/pfp.jpg')
 def post52():
-  return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 1/pfp.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 1/pfp.jpg",root='.')
 
 # bot 2
 @bottle.route('/Questions/Type 1 - Bot or Not/bot - 2/post1.png')
@@ -246,9 +243,9 @@ def post57():
 def post58():
   return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 2/post6.png",root='.')
 
-@bottle.route('/Questions/Type 1 - Bot or Not/bot - 2/pfp.png')
+@bottle.route('/Questions/Type 1 - Bot or Not/bot - 2/pfp.jpg')
 def post59():
-  return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 2/pfp.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 2/pfp.jpg",root='.')
 
 # bot 3
 @bottle.route('/Questions/Type 1 - Bot or Not/bot - 3/post1.png')
@@ -275,9 +272,9 @@ def post64():
 def post65():
   return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 3/post6.png",root='.')
 
-@bottle.route('/Questions/Type 1 - Bot or Not/bot - 3/pfp.png')
+@bottle.route('/Questions/Type 1 - Bot or Not/bot - 3/pfp.jpg')
 def post66():
-  return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 3/pfp.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 3/pfp.jpg",root='.')
 
 # bot 4
 @bottle.route('/Questions/Type 1 - Bot or Not/bot - 4/post1.png')
@@ -304,11 +301,11 @@ def post71():
 def post72():
   return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 4/post6.png",root='.')
 
-@bottle.route('/Questions/Type 1 - Bot or Not/bot - 4/pfp.png')
+@bottle.route('/Questions/Type 1 - Bot or Not/bot - 4/pfp.jpg')
 def post73():
-  return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 4/pfp.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 4/pfp.jpg",root='.')
 
-# bot 5
+# ----- bot 5 -------
 @bottle.route('/Questions/Type 1 - Bot or Not/bot - 5/post1.png')
 def post74():
   return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 5/post1.png",root='.')
@@ -333,9 +330,9 @@ def post78():
 def post79():
   return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 5/post6.png",root='.')
 
-@bottle.route('/Questions/Type 1 - Bot or Not/bot - 5/pfp.png')
+@bottle.route('/Questions/Type 1 - Bot or Not/bot - 5/pfp.jpg')
 def post80():
-  return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 5/pfp.png",root='.')
+  return bottle.static_file("/Questions/Type 1 - Bot or Not/bot - 5/pfp.jpg",root='.')
 
 
 
