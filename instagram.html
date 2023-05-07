@@ -1,0 +1,76 @@
+<html>
+
+    <head>
+        <title>Bot Or Not</title>
+      <script src="main.js"></script>
+    </head>
+
+    <body style="background-color: darkgray;"onload="LoadData();">
+      <div>
+        <div id="Initial_Box" style=" height:100%; width:35%; background-color:black; margin: auto;float: left;">
+            <h3 id="Profile_Name" style=" color: white; padding-left:7%; padding-top:2%">Profile Name</h3>
+            <div id="Profile_Icon" style=" height:11%; width:15%; background-color:red; border-radius:50%; margin-left: 5%; display: inline-block;">
+                <image src="Temp_image.png"style="border-radius:50%; width:100%;height:100%" id="pfp"></image>
+            </div>
+            <table style="margin: auto; display: inline-block; padding-left:20%; border-spacing: 10px; border-bottom:0px;">
+                <tr>
+                    <th style="padding-bottom: 0px;"><h3 id="Profile_Posts_Count" style="text-align: center; color: white;" >29</h3></th>
+                    <th style="padding-bottom: 0px;"><h3 id="Profile_Followers_Count" style="text-align: center; color: white;" >100k</h3></th>
+                    <th style="padding-bottom: 0px;"><h3 id="Profile_Following_count" style="text-align: center; color: white;" >10</h3></th>
+                </tr>
+                <tr>
+                    <th style="padding-top: 0px;"><h3 id="Profile_Posts" style="text-align: center; color: white;">Posts</h3></th>
+                    <th style="padding-top: 0px;"><h3 id="Profile_Followers" style="text-align: center; color: white;">Followers </h3></th>
+                    <th style="padding-top: 0px;"><h3 id="Profile_Following" style="text-align: center; color: white;">Following</h3></th>
+                </tr>
+            </table>
+ 
+                <div style="padding-left: 4%;">
+                    <p style="color: white; padding-top: -10%; font-style: italic; padding-left: 2%;" id="Name">Barack Obama</p>
+                    <p style="color: white; padding-top: -10%;padding-left: 2%;" id="Bio">Obama Care be lit, also no more $19 fortnite cards</p>
+                    <p style="color: white; padding-top: -10%;padding-left: 2%;" id="Web">obamacare.com</p>
+                </div>
+            <br>
+            <div id="Image Grid">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th><image src="icon1.png" width="20%"height="20%"></image></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th style="margin: 0%; margin-left: 0%; margin-right: 0%;"width="200px"height="200px"><a href="/zoom" onclick="set_image(1);" target="_blank"><image src="Temp_image.png" width="100%"height="100%" id="Image1"></image></a></th>
+                        <th style="margin: 0%; margin-left: 0%; margin-right: 0%;"width="200px"height="200px"><a href="/zoom" onclick="set_image(2);" target="_blank"><image src="Temp_image.png" width="100%"height="100%"id="Image2"></image></a></th>
+                        <th style="margin: 0%; margin-left: 0%; margin-right: 0%;"width="200px"height="200px"><a href="/zoom" onclick="set_image(3);" target="_blank"><image src="Temp_image.png" width="100%"height="100%"id="Image3"></image></a></th>
+                    </tr>
+                    <tr>
+                        <th width="200px"height="200px"><a href="/zoom" onclick="set_image(4);" target="_blank"><image src="Temp_image.png" width="100%"height="100%"id="Image4"></image></a></th>
+                        <th width="200px"height="200px"><a href="/zoom" onclick="set_image(5);" target="_blank"><image src="Temp_image.png" width="100%"height="100%"id="Image5"></image></a></th>
+                        <th width="200px"height="200px"><a href="/zoom" onclick="set_image(6);" target="_blank"><image src="Temp_image.png" width="100%"height="100%"id="Image6"></image></a></th>
+                    </tr>
+
+                </table>
+                
+            </div>
+          
+        </div>
+          <div style="text-align:center">
+            <h2 style="display:inline-block;">Score: </h2>
+            <h2 style="display:inline-block;" id="Score">0</h2>
+            <br>
+            <h1>Is this real or a bot?</h1>
+            <Button id="Real_Button"style="height:10%; width: 10%; border-radius:10%; background-color:lime; visibility: visible;" onclick="real();">Real</Button>
+            <Button id="Bot_Button" style="height:10%; width: 10%; border-radius:10%; background-color:red; visibility: visible;" onclick="Bot();">Bot</Button>
+            <br>
+            <p id="Exp" style="font-size:150%; visibility:hidden;">This is a real account because...............................................................................................</p>
+            <button id="Next" style="height:10%; width: 10%; border-radius:10%;visibility:hidden;" onclick='Next();'>Next</button>
+            <br>
+            <br>
+            <button id="Leaderboards" style="height:10%; width: 10%; border-radius:10%;visibility:hidden;" onclick="Leaderboard();">See Leaderboards</button>
+            <br>
+            <a href="/play"><button id="Home" style="height:10%; width: 10%; border-radius:10%" onclick="home();">Go Home</button></a>
+          </div>
+      </div>
+    </body> 
+
+</html>
