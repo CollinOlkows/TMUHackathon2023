@@ -180,7 +180,7 @@ function LoadedC(response){
   console.log(d)
   id=document.getElementById("Img");
   if(s[0][0]=='1'){
-    id.src=d[0][10];
+    id.src=d[0][9];
     id.style.visibility="visible";
     document.getElementById("D").innerHTML=d[0][11]
     document.getElementById("Caption").innerHTML=d[0][10]
